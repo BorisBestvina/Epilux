@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Epilux SK – Cenník</title>
+  <style>
+    /* Spoločný štýl */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Arial', sans-serif; background-color: #f8f8f8; color: #333; line-height: 1.6; }
+    header { background: linear-gradient(45deg, #2c3e50, #34495e); color: #fff; text-align: center; padding: 20px; }
+    header h1 { font-size: 2.8rem; }
+    header p { font-size: 1.2rem; margin-top: 8px; }
+    nav { background: #2980b9; text-align: center; padding: 12px 0; }
+    nav a { color: #fff; text-decoration: none; margin: 0 15px; padding: 10px 15px; font-size: 1.1rem; transition: background 0.3s; }
+    nav a:hover { background: rgba(255,255,255,0.2); }
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                  url('https://via.placeholder.com/1920x600?text=Epilux+SK+Cenn%C3%ADk') no-repeat center center/cover;
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      color: #fff;
+    }
+    .hero h2 { font-size: 3.2rem; margin-bottom: 20px; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); }
+    .hero p { font-size: 1.6rem; margin-bottom: 30px; text-shadow: 1px 1px 5px rgba(0,0,0,0.6); }
+    /* Tlačidlá v hero sekcii na Cenníku */
+    .hero .action-btn {
+      background: #e67e22;
+      padding: 12px 24px;
+      border: none;
+      color: #fff;
+      font-size: 1.1rem;
+      margin: 0 10px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .hero .action-btn:hover { background: #cf711f; }
+    main {
+      max-width: 1200px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    main section { margin-bottom: 30px; }
+    main h2 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #2980b9;
+      padding-bottom: 5px;
+      text-align: center;
+    }
+    main p { font-size: 1.1rem; margin: 10px 20px; text-align: justify; }
+    footer { background: #2c3e50; color: #fff; text-align: center; padding: 15px 10px; margin-top: 30px; }
+    @media (max-width: 768px) {
+      .hero { height: 400px; }
+      .hero h2 { font-size: 2.5rem; }
+      .hero p { font-size: 1.3rem; }
+      nav a { display: block; margin: 8px 0; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Epilux SK</h1>
+    <p>Profesionálna epilácia pre hladkú a krásnu pokožku</p>
+  </header>
+  
+  <!-- Navigácia -->
+  <nav>
+    <a href="index.html">Domov</a>
+    <a href="sluzby.html">Služby</a>
+    <a href="onas.html">O nás</a>
+    <a href="cennik.html">Cenník</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
+  
+  <!-- Hero sekcia pre Cenník -->
+  <div class="hero">
+    <h2>Cenník</h2>
+    <p>Prezrite si naše atraktívne balíčky a cenové ponuky</p>
+    <div>
+      <a href="kontakt.html" class="action-btn">Zisti viac</a>
+      <a href="kontakt.html" class="action-btn">Objednaj konzultáciu</a>
+    </div>
+  </div>
+  
+  <!-- Main obsah -->
+  <main>
+    <section>
+      <h2>Prehľad cien</h2>
+      <p>Naše ceny sa líšia v závislosti od rozsahu služby a použitých metód. Ponúkame individuálne kalkulácie, takže nás neváhajte kontaktovať pre presný odhad vášho ošetrenia.</p>
+    </section>
+  </main>
+  
+  <!-- Pätička -->
+  <footer>
+    <p>&copy; 2025 Epilux SK. Všetky práva vyhradené.</p>
+  </footer>
+</body>
+</html>
